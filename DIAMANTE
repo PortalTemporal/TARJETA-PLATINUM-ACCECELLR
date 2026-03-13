@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ACCECELL R | Cliente VIP Diamante</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#ffffff,#ffe5e5);
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:20px;
+}
+
+.container{
+max-width:800px;
+width:100%;
+background:white;
+border-radius:25px;
+padding:45px;
+box-shadow:0 30px 70px rgba(0,0,0,0.18);
+text-align:center;
+
+/* borde premium para diferenciar diamante */
+border:3px solid #d90429;
+}
+
+.logo img{
+width:210px;
+margin-bottom:8px;
+}
+
+/* ETIQUETA DIAMANTE */
+
+.vip{
+display:inline-block;
+background:linear-gradient(45deg,#ff1e3c,#d90429,#ff1e3c);
+color:white;
+padding:8px 22px;
+border-radius:25px;
+font-size:13px;
+font-weight:700;
+margin-bottom:20px;
+letter-spacing:1px;
+box-shadow:0 5px 15px rgba(217,4,41,0.4);
+}
+
+h1{
+font-size:34px;
+color:#111;
+margin-bottom:10px;
+}
+
+.subtitle{
+font-size:18px;
+color:#555;
+margin-bottom:35px;
+}
+
+.benefits{
+display:grid;
+gap:18px;
+}
+
+.card{
+background:#fffafa;
+padding:22px;
+border-radius:18px;
+display:flex;
+gap:15px;
+align-items:flex-start;
+text-align:left;
+transition:0.3s;
+
+/* borde más fuerte para diamante */
+border-left:6px solid #d90429;
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 12px 28px rgba(217,4,41,0.2);
+}
+
+.icon{
+font-size:28px;
+}
+
+.card h3{
+font-size:18px;
+margin-bottom:4px;
+color:#111;
+}
+
+.card p{
+font-size:15px;
+color:#555;
+}
+
+.terms{
+margin-top:40px;
+text-align:left;
+background:#fff5f5;
+padding:25px;
+border-radius:15px;
+border-left:6px solid #d90429;
+}
+
+.terms h2{
+font-size:20px;
+margin-bottom:10px;
+color:#111;
+}
+
+.terms p{
+font-size:14px;
+color:#555;
+margin-bottom:8px;
+line-height:1.5;
+}
+
+.footer{
+margin-top:35px;
+font-size:14px;
+color:#777;
+text-align:center;
+}
+
+@media (max-width:600px){
+.container{
+padding:30px;
+}
+
+.logo img{
+width:110px;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">
+<img src="ACCECELLR.jpeg" alt="ACCECELL R">
+</div>
+
+<div class="vip">CLIENTE VIP DIAMANTE</div>
+
+<h1>Bienvenido al Nivel Diamante</h1>
+
+<p class="subtitle">
+Gracias por confiar en <strong>ACCECELL R</strong>. Tu membresía Diamante te brinda beneficios exclusivos.
+</p>
+
+<div class="benefits">
+
+<div class="card">
+<div class="icon">⚡</div>
+<div>
+<h3>Prioridad absoluta</h3>
+<p>Atención prioritaria en cualquier servicio de reparación.</p>
+</div>
+</div>
+
+<div class="card">
+<div class="icon">🛍</div>
+<div>
+<h3>25% de descuento</h3>
+<p>En accesorios como cargadores, cables y protectores.</p>
+</div>
+</div>
+
+<div class="card">
+<div class="icon">📱</div>
+<div>
+<h3>15% de descuento</h3>
+<p>En la compra de un nuevo dispositivo.</p>
+</div>
+</div>
+
+<div class="card">
+<div class="icon">🔄</div>
+<div>
+<h3>Dispositivo temporal exclusivo</h3>
+<p>Si la reparación de tu dispositivo tarda <strong>7 días o más</strong>, te proporcionamos temporalmente un dispositivo de gama media para que no dejes de comunicarte mientras finalizamos la reparación.</p>
+</div>
+</div>
+
+</div>
+
+<div class="terms">
+<h2>Términos y Condiciones</h2>
+
+<p><strong>Tarjeta personal:</strong> Esta tarjeta es personal e intransferible y debe presentarse para redimir cualquier beneficio.</p>
+
+<p><strong>Beneficios:</strong> Los beneficios de esta tarjeta tienen una validez de un año a partir de su emisión.</p>
+
+<p><strong>Descuentos:</strong> Los descuentos no son acumulables con otras promociones vigentes.</p>
+
+<p><strong>Dispositivo temporal:</strong> El dispositivo proporcionado deberá devolverse al momento de entregar el equipo reparado. Beneficio sujeto a disponibilidad.</p>
+
+</div>
+
+<div class="footer">
+ACCECELL R • TeConectaConElMundo  
+© Copyright 2026 ACCECELL R. Todos los derechos reservados.
+</div>
+
+</div>
+
+</body>
+</html>
